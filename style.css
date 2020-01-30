@@ -1,0 +1,37 @@
+body{
+	margin: 0;
+	padding: 0;
+	background: url(icons/img.jpg) no-repeat center center fixed;
+  	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	font-family:'Oswald', Arial, Helvetica, sans-serif;
+}
+
+.ccd{
+	z-index: 2;
+	position: absolute;
+	width: 400px;
+	height: 35px;
+	background-color: #e07c1f;
+	color: #f2f2f2;
+	font-family: 'Bebas Neue', cursive;
+	margin-top: 20px;
+	margin-left: 15px;
+
+}
+
+.card{
+
+	position: relative;
+	z-index: 1;
+	width: 500px;
+	height: 300px;
+	background-color: #aaddce;
+	border-radius: 10px;
+	opacity:60%;
+	margin-left: 30px;
+	margin-top: 20px;
+	padding: 15px;
+}
